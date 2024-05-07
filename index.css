@@ -1,0 +1,219 @@
+*{margin: 0;padding: 0;}
+/* header */
+.fixed{width: 100%;padding: 5px 0px;position: fixed; background-color: white;z-index: 1;}
+.gridlayout{width: 95%;margin: auto;display: flex;justify-content: space-between; }
+.header_content ul li{list-style: none;}
+.header_content ul li a{text-decoration: none;color: black;cursor: pointer;}
+.header_content ul{display: flex;gap: 30px;margin: 20px 0px;}
+.tab_highlight{text-decoration: underline; color: red;}
+/* hero_section */
+.hero_bg{height: 600px;width: 100%;background-color: red;display: flex;justify-content: space-between;margin-bottom: 100px;}
+.hero_img img{width: 570px;height: 450px;margin: 75px 100px 0px ;}
+.hero_content{margin: 150px 170px;color: rgb(255, 255, 255);}
+.hero_content h1{font-size: 56px;padding: 15px 0px;}
+.hero_content h4{font-size: 32px;}
+.hero_content p{font-size: 20px;padding: 15px 0px;}
+.hero_content button{border-radius: 5px; border-style: none;padding: 18px 50px;margin: 20px 0px;}
+.hero_content button a{text-decoration: none;color: black;font-weight: 700; font-size: 18px;}
+/* top_institutes */
+.top_institute{width: 90%;margin: auto;}
+.top_institute_heading{display: flex;justify-content: space-between;}
+.top_institute_heading h1{color: red;}
+.top_institute_heading a{color: black;}
+.top_institute_content{padding: 50px 0px;display: flex;margin: auto;justify-content: space-around;}
+.top_institute_content_box{height: 200px;width: 200px;background-color: rgb(224, 225, 225);border-radius: 5px;border-style: none ;}
+.top_institute_content_box img{height: 100px;width: 100px;object-fit: cover;margin: 50px 50px}
+.top_institute_content_one, .top_institute_content_two{display: flex;justify-content: space-around; width: 50%;}
+/* top_course */
+.top_course{width: 90%;margin: auto;}
+.top_course_heading{display: flex;justify-content: space-between;margin-top: 100px;}
+.top_course_heading h1{color: red;}
+.top_course_heading a{color: black;}
+.top_course_content{padding: 50px 0px;display: flex;margin: auto;justify-content: space-around;}
+.top_course_content_box{height: 200px;width: 200px;background-color: rgb(224, 225, 225);border-radius: 5px;border-style: none ;}
+.top_course_content_box img{height: 100px;width: 100px;object-fit: cover;margin: 50px 50px}
+.top_course_content_one, .top_course_content_two{display: flex;justify-content: space-around; width: 50%;}
+/* testimonial */
+.testimonial_heading{width: 90%;margin: auto;}
+.testimonial_heading{display: flex;justify-content: space-between;margin-top: 100px;}
+.testimonial_heading h1{color: red;}
+.testimonial_heading a{color: black;}
+/* testimonial_card */
+.testimonial_card{width: 90%;margin: auto;display: flex;justify-content: center;gap: 100px;}
+.testimonial_card_one{position: relative;height: 500px;width: 550px;margin: 50px 20px;background: #FFF;box-shadow: 0px 4px 4px 3px rgba(0, 0, 0, 0.25);}
+.testimonial_triangle {position: absolute;right: -10px;top: -10px;height: 90px;width: 100px;}
+.testimonial_card_one p{font-size: 18px;text-align: center;margin: 100px 0px 30px 0px;}
+.testimonial_star{margin: 0px 170px;}
+.testimonial_line img{width: 450px;margin: 30px 50px;}
+.testimonial_info{margin: 15px 0px;display: flex;gap: 30px;justify-content: center;}
+.testimonial_info_content h4{margin: 20px 0px;}
+.testimonial_info_content h6{color: #605D5D;font-size: 15PX;text-transform: uppercase;}
+/* contact */
+.contact_grid{width: 90%;box-shadow: 0px 4px 4px 3px rgba(0, 0, 0, 0.25);height: auto;margin: auto;display: flex;margin-bottom: 50px;}
+.contact_links{width: 35%;padding: 170px 100px;}
+.contact_form{width: 100%;margin: 50px 0px;border-left: solid #AAAAAA 2px;padding: 10px 50px;}
+.contact_location, .contact_phone, .contact_mail{display: flex;gap: 20px;}
+.contact_location_content h4, .contact_phone_content h4, .contact_mail_content h4{color: #605D5D;font-size: 16px;padding: 10px 0px;}
+.contact_location_content h3, .contact_phone_content h3, .contact_mail_content h3{font-size: 18px;}
+.contact_location_content, .contact_phone_content, .contact_mail_content{margin: 10px;}
+.contact_links img{width: 70px;height: 70px;}
+.contact_form_name_company, .contact_form_email_no{display: flex;gap: 55px;}
+.contact_form h3{color: #7A7979;}
+.contact_form h1{margin: 10px 0px;}
+.contact_input{width: 370px;padding: 30px 10px 10px 10px;margin-top: 20px;border-style: none;border-bottom: 2px solid black;}
+.contact_form_text_area{width: 97%;height: 130px;padding-top: 20px;padding-left: 20px;margin-top: 20px;border-style: none;border-bottom: 2px solid black;}
+.contact_form_button{padding: 20px 60px;color: white;background-color: red;font-size: 14px;margin-top: 20px;}
+/* compare heading*/
+.compare_heading{text-align: center;color: red;margin: 50px 50px;}
+.compare_main_table{border: solid black 1px;width: 90%;margin: auto;}
+.compare_table_heading, .compare_table_content_row{display: flex;}
+.compare_table_heading_institute_one, .compare_table_heading_institute_two, .compare_table_heading_institute_three, .compare_table_heading_institute_four{text-align: center; font-weight: bold; font-size: 18px;border: solid black 1px;width: 20%;padding: 20px 20px;}
+.compare_table_heading_colum_one{font-weight: bold;font-size: 18px;border: solid black 1px;width: 20%;padding: 20px 20px;}
+.compare_table_heading_institute_one h5{margin-top: 20px;color: #1691E9;}
+.compare_table_content_row_value_one, .compare_table_content_row_value_two, .compare_table_content_row_value_three, .compare_table_content_row_value_four{border-left: solid black 1px;border-right: solid black 1px;width: 20%;padding: 20px 20px;text-align: center;}
+.compare_table_content_row_value_select_one, .compare_table_content_row_value_select_two, .compare_table_content_row_value_select_three, .compare_table_content_row_value_select_four{display: flex;justify-content: space-between;border-left: solid black 1px;border-right: solid black 1px;width: 20%;padding: 20px 20px;text-align: center;}
+.compare_table_content_row_heading{border-left: solid black 1px;border-right: solid black 1px;width: 20%;padding: 20px 20px;font-weight: bold; font-size: 18px;}
+.compare_table_content_row_segment{border: solid black 1px;width: 100%;padding: 20px 20px;background-color: rgba(250, 107, 107, 0.50);}
+.Compare_Section_button{width: 100%;padding: 20px 0px;color: red;font-size: 18px;box-shadow: 0px 4px 4px 4px rgba(0, 0, 0, 0.25);border-style: none;background-color: #FFF;}
+.compare_table_content_row_segment span{font-weight: bold;font-size: 20px;}
+
+/* footer */
+.footer_bg{width: 100%;background-color: red;color: #FFF;display: flex;justify-content: space-evenly;padding: 50px 0px;margin-top: 50px;}
+.footer_logo_description p{padding: 30px 0px;font-size: 18px;}
+.footer_useful_links ul{padding: 30px 20px;list-style: none;}
+.footer_email{padding-top: 30px;display: flex;}
+.footer_phone{padding-top: 10px;display: flex;}
+.footer_opening_hours{margin-top: 20px;}
+.footer_day{display: flex;justify-content: space-between;border-bottom: solid black 1px;padding-top: 10px;}
+.footer_happy{color: red;padding-left: 5px;}
+.footer_useful_links ul li img{padding: 5px;}
+.footer_useful_links ul li a{text-decoration: none;color: white;}
+.footer_list{display: flex;}
+.footer_list_a{padding-top: 7px;}
+.footer_content span{ font-size: 18px; font-weight: bolder;}
+
+/* copyrights */
+.copyrights_full{width: 90%;margin: auto;display: flex;justify-content: space-between;padding: 10px;}
+.copyrights{display: flex;}
+/* login_page */
+.login_grid{width: 35%;margin-left: auto;margin-right: auto;margin-bottom: 100px;box-shadow: 1px 2px 4px 4px rgba(0, 0, 0, 0.25);}
+.login_heading{width: 100%;display: flex;padding: 50px 0px 20px 0px; justify-content: space-evenly;}
+.heading_login_active{width: 50%;color: red;font-size: 20px;}
+.heading_signup{width: 50%;text-decoration: none;color: #7A7979;font-size: 20px;}
+.login_input_value{outline: none;border-style: none;border-bottom: solid black 1px;padding-top: 50px;width: 50%;}
+.login_input_allign{display: flex;justify-content: center;}
+.keep_signed{margin: 60px 0px 30px 0px;}
+.login_checkbox{margin-right: 10px;}
+.login_button{margin: 50px 0px;padding: 10px 100px;background-color: red;color: white;border-style: none;}
+.login_line{width: 80%;margin: 0px 55px;}
+.create_an_account{padding: 50px 0px;font-size: 16px;}
+.create_an_account a, .login_checkbox_lable{text-decoration: none;color: #7A7979;}
+/* signup_page */
+.signup_button{margin: 60px 0px;padding: 10px 100px;background-color: red;color: white;border-style: none;}
+.already_have_account{padding: 50px 0px;font-size: 16px;}
+.already_have_account a{text-decoration: none;color: #7A7979;}
+.heading_login{width: 50%;text-decoration: none;color: #7A7979;font-size: 20px;}
+.heading_signup_active{width: 50%;color: red;font-size: 20px;}
+/* testimonial_page */
+.institute_page_grid{width: 90%;margin: auto;}
+.institute_page_header{display: flex;justify-content: center;}
+.institute_page_header h1{color: red; margin-bottom: 50px;line-height: 40px;text-align: center;}
+.institute_page_row{display: flex;justify-content: center;gap: 60px;margin-bottom: 70px;}
+.institute_page_row_card{width: 25%;background-color: #e7e6e6;border-radius: 5px;}
+.institute_page_row_card_allign{display: flex;justify-content: center;}
+.institute_page_card_placement{display: flex;padding: 10px 20px;}
+.institute_page_content{display: flex;justify-content: center;margin: 20px 0px;}
+.institute_page_content p{width: 80%;text-align: center;}
+.institute_page_school_name{margin: 40px 0px;font-size: 22px;color: red;}
+.institute_page_card_rating_flex{display: flex;justify-content: space-between;margin-top: 20px;}
+.institute_page_card_placement h1{color: red;font-size: 18px;}
+.institute_page_card_placement h2{font-size: 18px;margin-left: 5px;}
+.institute_page_card_view_more{font-size: 24px;color: black;font-weight: 600;margin-bottom: 40px;}
+/* course_page */
+.course_page_heading{display: flex;justify-content: center;color: red;font-size: 36px;}
+.course_page_card{width: 400px;height: auto;background-color: #e7e6e6;border-radius: 5px;}
+.course_page_card_row{width: 90%;margin: auto;}
+.course_page_card_like{display: flex;justify-content: right;padding: 15px;}
+.course_page_card_logo{display: flex;justify-content: center;}
+.course_page_card_logo img{margin-top: -30px;}
+.course_page_card_tag{display: flex;justify-content: center;color: red;font-size: 22px;font-weight: 600;}
+.course_page_card_price{display: flex;justify-content: center;font-size: 18px;font-weight: 600;margin: 30px 0px;}
+.course_page_card_tag_two{display: flex;justify-content: center;font-size: 19px;font-weight: 600;padding-bottom: 60px;}
+.course_page_card_tag_two a{color: red;}
+.course_page_card_like img{height: 30px;width: 33px; color: red;}
+.course_page_card_row{display: flex;justify-content: space-evenly;margin-top: 60px;}
+/* school_page */
+.school_grid{width: 80%;margin: auto;display: flex;}
+.school_heading{width: 900px;}
+.school_heading span{color: red;font-size: 40px;font-weight: 1000;}
+.school_content{width: 900px;font-size: 20px;font-weight: 500;padding-left: 40px;}
+/* school_card */
+.school_card_grid{width: 80%;margin: auto; display: flex;}
+.school_card_row{margin: 100px 0px;display: flex;gap: 310px;}
+.school_card{width: 300px;height: auto;border-top: solid black 1px;}
+.school_card_header{display: flex;margin-top: 30px;margin-left: 20px;}
+.school_card_header img{margin-right: 10px;}
+.school_card_value{padding: 20px;margin: 35px 0px 15px 0px;}
+.school_card_value span{color: red;font-size: 28px;font-weight: 1000;}
+/* school_content */
+.offering_heading{display: flex;justify-content: center; margin-bottom: 50px;}
+.offering_heading span{color: red;font-size: 40px;font-weight: 1000;}
+.school_offering{background-color: #1C1B1B;width: 100%;height: auto; padding: 50px 0px 100px 0px;}
+.school_offering_grid{width: 80%;margin: auto;}
+/* school_course_list */
+.offering_segment{color: white;border-bottom: solid white 2px;display: flex;justify-content: space-between;padding-top: 50px;}
+.offering_segment_no{margin-top: 20px;}
+.offering_segment_no_value{font-size: 50px;font-weight: bolder;padding: 0px 20px;}
+.offering_segment_sub{display: flex;padding-bottom: 20px;}
+.offering_segment_sub_one{margin-bottom: 10px;}
+.offering_segment_sub_one_header{font-size: 22px;font-weight: 600;}
+.offering_segment_desc{width: 800px;}
+.offering_segment_sub_two{padding: 35px 40px 0px 0px;}
+.offering_segment_value{font-size: 35px;font-weight: bolder;}
+.offering_segment_syllabus{margin: 0px 40px;}
+.offering_segment_syllabus img{height: 55px;width: 70px;padding-top: 20px;}
+
+@media(min-width:700px) and (max-width:850px){
+
+}
+
+@media screen and (max-width:500px) {
+    .gridlayout, .top_course_content, .testimonial_card, .footer_bg, .contact_grid, .contact_form_name_company, .contact_form_email_no{display: block;} 
+   .hero_img, .compare_table_heading_institute_three, .compare_table_heading_institute_four, .compare_table_content_row_value_three, 
+   .compare_table_content_row_value_four,.compare_table_content_row_value_select_three, .compare_table_content_row_value_select_four,
+   .testimonial_card, .footer_useful_links, .top_institute_content_two, .top_course_content_two{display: none;}
+   /* index */
+   .logo img{width: 80px;margin: 4px 0px;}
+   .header_content ul{gap: 8px;margin: 0;}
+   .header_content ul li a{font-size: 10px;}
+   .hero_content{margin: 130px 0px 130px 50px;}
+   .top_institute_content_box, .top_course_content_box{margin:20px;}
+   .top_institute_content_one{margin:20px; width: 100%; justify-content: space-between;}
+   .top_course_content_one{justify-content: space-between;justify-content: unset;width: 100%;margin: 20px;}
+   .top_institute_content_box, .top_course_content_box{height: 150px;width: 150px;margin: 0;}
+   .top_institute_content_box img, .top_course_content_box img{margin: 25px;}
+   .top_course_heading, .testimonial_heading{margin-top: 0px;}
+   .contact_input{width: 80%;}
+   .contact_form{padding: 0;border: none;}
+   .contact_form h3{text-align: center;}
+   .contact_form h1{text-align: center;}
+   .contact_input_flex, .contact_form_button_flex{display: flex;justify-content: center;}
+   .contact_area_flex{width: 80%;display: flex;justify-content: center;}
+   .contact_links{padding: 40px ;width: 100%;}
+   .contact_form_button{margin: 20px 0px;}
+   .contact_grid{margin-top: 20px;}
+   .compare_table_heading_institute_one, .compare_table_heading_institute_two{width: 32%;padding-left: auto;padding-right: auto;font-weight: bold;text-align: center;}
+   .compare_table_content_row_value_one, .compare_table_content_row_value_two, .compare_table_content_row_value_select_one, .compare_table_content_row_value_select_two{width: 32%;padding-left: auto;padding-right: auto;}
+   .compare_table_content_row_segment span{font-weight: bold;font-size: 18px;}
+   .compare_table_heading_colum_one,.compare_table_content_row_heading{width: 34%;padding: 20px 10px;font-weight: bold;}
+   .Compare_Section_button{padding: 10px 20px; font-size: 9px;font-weight: 600;}
+   .footer_logo_description, .footer_contact_info, .footer_opening_hours{margin: 0px 50px;}
+   .footer_opening_hours {padding: 30px 0px;}
+   .footer_opening_hours_content{padding-top: 30px;}
+   .all_rights{text-align: end;}
+   
+   .login_grid{margin: auto; width: 95%;}
+   /* .login_line{margin: 0px 20px; width: 95%;} */
+   .line{display: flex; justify-content: center;}
+}
+
